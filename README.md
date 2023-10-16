@@ -16,3 +16,7 @@ Library needed:
 7. plotly.graph_objects
 8. OS
 9. auth
+
+in terminal run:
+streamlit run app.py 
+And GO! Happy coding !🚀
