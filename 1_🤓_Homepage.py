@@ -4,7 +4,7 @@ from auth import authenticate
 import random
 
 import pandas as pd
-import plotly.express as px
+
 import plotly.graph_objects as go
 
 # Set page title and icon
