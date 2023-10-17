@@ -136,6 +136,13 @@ def contacts():
 def projects_page():
     st.title("📚Projects")
     # Add your 📚Projects page code here
+    st.markdown(
+        """
+    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%128282showTz=0&showCalendars=0"
+        width="250" height="250" frameborder="0" scrolling="no" style="float: right;"></iframe>
+    """,
+        unsafe_allow_html=True,
+    )
     
 # st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
@@ -144,13 +151,7 @@ def projects_page():
     st.markdown("<h1 style='text-align: center; font-weight: bold;'>"
             f"{time.strftime('%H:%M:%S')}⏳</h1>",
             unsafe_allow_html=True)
-    st.markdown(
-        """
-    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%128282showTz=0&showCalendars=0"
-        width="250" height="250" frameborder="0" scrolling="no" style="float: right;"></iframe>
-    """,
-        unsafe_allow_html=True,
-    )
+    
     
     
    
