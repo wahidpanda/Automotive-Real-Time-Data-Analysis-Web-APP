@@ -5,6 +5,8 @@ Upload your large excel file and analyze your data with a click !
 ![image](https://github.com/wahidpanda/Automotive-Real-Time-Data-Analysis-Web-APP/assets/110899864/5bef067d-d44e-4842-ba6c-aebee5d6193e)
 ![image](https://github.com/wahidpanda/Automotive-Real-Time-Data-Analysis-Web-APP/assets/110899864/e8449a69-4c37-4668-9346-1c741d59ee54)
 ![image](https://github.com/wahidpanda/Automotive-Real-Time-Data-Analysis-Web-APP/assets/110899864/01a313f5-7ea3-4dba-835f-6d7a9d8dc08e)
+![image](https://github.com/wahidpanda/Automotive-Real-Time-Data-Analysis-Web-APP/assets/110899864/d02772ba-1550-44af-b65a-a5ddaf0013eb)
+
 
 Library needed:
 1. streamlit 
