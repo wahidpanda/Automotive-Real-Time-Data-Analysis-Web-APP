@@ -141,9 +141,17 @@ def projects_page():
 
     st.title("Analyzer Dashboard 📊")
     st.markdown("_Prototype v1.0_")
-     st.markdown("<h1 style='text-align: center; font-weight: bold;'>"
+    st.markdown("<h1 style='text-align: center; font-weight: bold;'>"
             f"{time.strftime('%H:%M:%S')}⏳</h1>",
             unsafe_allow_html=True)
+    st.markdown(
+        """
+    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%128282showTz=0&showCalendars=0"
+        width="250" height="250" frameborder="0" scrolling="no" style="float: right;"></iframe>
+    """,
+        unsafe_allow_html=True,
+    )
+    
     
    
     with st.sidebar:
