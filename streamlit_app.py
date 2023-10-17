@@ -7,6 +7,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 
+
 # Set page title and icon
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
@@ -55,6 +56,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+
 # Define the login page
 def login():
     st.markdown("<h1>📌Welcome to Sales Dashboard📌</h1>", unsafe_allow_html=True)
@@ -62,7 +64,7 @@ def login():
     # Embed Google Calendar on the right side of the page
     st.markdown(
         """
-    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23FFFF&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%23853104&showTz=0&showCalendars=0"
+    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%23853104&showTz=0&showCalendars=0"
         width="300" height="300" frameborder="0" scrolling="no" style="float: right;"></iframe>
     """,
         unsafe_allow_html=True,
