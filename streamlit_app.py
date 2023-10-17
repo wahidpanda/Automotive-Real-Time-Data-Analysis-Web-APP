@@ -62,7 +62,7 @@ def login():
     # Embed Google Calendar on the right side of the page
     st.markdown(
         """
-    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=your_email%40domain.com&color=%23853104&showTz=0&showCalendars=0"
+    <iframe src="https://calendar.google.com/calendar/embed?height=300&wkst=1&bgcolor=%E6B894&ctz=Asia%2FDhaka&src=your_email%40domain.com&color=%23853104&showTz=0&showCalendars=0"
         width="300" height="300" frameborder="0" scrolling="no" style="float: right;"></iframe>
     """,
         unsafe_allow_html=True,
