@@ -3,6 +3,7 @@ import time
 from auth import authenticate
 import random
 import duckdb
+import openpyxl
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
